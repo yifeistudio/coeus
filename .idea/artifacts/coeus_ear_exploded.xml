@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="coeus:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/coeus_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="coeus/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="web">
+        <element id="artifact" artifact-name="coeus:war exploded" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Struts 2-2.3.20.1" />
+        <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+      </element>
+    </root>
+  </artifact>
+</component>
