@@ -9,8 +9,26 @@
 <html>
   <head>
     <title>Coeus</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-  Home page
+    <h1>Test Page</h1>
+    <form method="post" action="">
+
+      <label for="executer">Executer:</label>
+      <input id="executer" type="text">
+      <br>
+
+      <label for="event">Executer:</label>
+      <input id="event" type="text">
+      <br>
+
+      <input type="submit" value="Submit">
+
+    </form>
   </body>
 </html>
