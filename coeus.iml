@@ -39,7 +39,7 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/web/WEB-INF/application.xml</file>
+          <file>file://$MODULE_DIR$/src/application.xml</file>
         </fileset>
       </configuration>
     </facet>
